@@ -388,7 +388,7 @@ int num_gyro_errors = 0;
 void read_sensors() {
   Read_Gyro(); // Read gyroscope
   Read_Accel(); // Read accelerometer
-  Read_Magn(); // Read magnetometer
+  //Read_Magn(); // Read magnetometer
 }
 
 // Read every sensor and record a time stamp
